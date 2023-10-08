@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+#restartButton {
+    margin-top: 20px;
+}
+
+#highScores {
+    margin-top: 30px;
+}
+
+#scoreList {
+    list-style: none;
+    padding-left: 0;
+}
